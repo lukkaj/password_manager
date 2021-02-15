@@ -6,7 +6,9 @@ Main is is the login menu where users can login with existing account, create ac
 
 
 SQL database consists of two tables, Users and PWManaager.
+  
   -Users: id, master password, email and key for decryption.
+  
   -PWManager: id, app, email, password and user_id
 
 Hashing + salt is used to conceal masterpassword. Other passwords are hidden with encryption. Decryption is handeld with user specific key.
