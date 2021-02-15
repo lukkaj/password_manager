@@ -19,8 +19,11 @@ they can store new password for certain application or site, which will be encry
 Before printing passwords those are decrypted.
 
 To do:
+  
   -GUI
+  
   -Database design improvements
+  
   -Increasing security
   
 NOTE:
