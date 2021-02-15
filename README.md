@@ -1,6 +1,10 @@
 # password_manager
 Simple terminal based password manager which utilizes sqlite as database. 
 
+Password manager consist of main.py, menu.py, db_ops.py and encryption_ops.py.
+Main is is the login menu where users can login with existing account, create account for password manager or just quit. Masterpassword is utilized in login. In menu users can decide wheater they want to for example store or retrieve stored passwords, there are also a few functions where different operations are performed. In db_ops (database operations) all actions towards database are performed. In encryption_ops (encryption operations) masterpassword can be hashed and checked if given password matches with hashed one, key's are generated to encrypt and decrypt application specific passwords. 
+
+
 SQL database consists of two tables, Users and PWManaager.
   -Users: id, master password, email and key for decryption.
   -PWManager: id, app, email, password and user_id
